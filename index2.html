@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-white min-h-screen">
+  <header>
+    <nav class="bg-white p-5 z-10">
+      <div
+        class="max-w-screen-xl flex items-center justify-between mx-auto p-4 shadow-[3px_1px_0px_6px_#667eea] rounded-lg relative">
+        <a href="">
+          <img src="/assets/images/logo.svg" alt="logo" class="h-8 w-8 ">
+        </a>
+        <button id="hamburger-button" name="hamburger" type="button" class="block absolute right-4 md:hidden">
+          <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+          <span class="hamburger-line transition duration-300 ease-in-out"></span>
+          <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+        </button>
+        <div
+          class="absolute bg-white md:bg-transparent rounded-lg shadow-lg md:shadow-none max-w-[250px] md:block w-full right-4 top-full md:top-0 mt-5 md:mt-0 mr-5">
+          <ul id="nav-menu"
+            class="md:flex hidden md:space-x-3 py-5 space-y-5 md:space-y-0 text-center text-lg font-semibold">
+            <li class="hover:text-blue-500">Home</li>
+            <li class="hover:text-blue-500">Services</li>
+            <li class="hover:text-blue-500">Pricing</li>
+            <li class="hover:text-blue-500">Contact</li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <script src="/dist/js/main.js"></script>
+</body>
+
+</html>
