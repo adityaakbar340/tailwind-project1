@@ -17,3 +17,7 @@
 .hamburger-active > span:nth-child(3) {
   @apply -rotate-45;
 }
+
+.swiper {
+  @apply relative;
+}
